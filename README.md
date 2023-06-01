@@ -1,16 +1,31 @@
-# chat_app
+# Taskify
 
-A new Flutter project.
+Communication app built on FlutterFire for teams to commnuicate.
 
-## Getting Started
+## Run Locally
 
-This project is a starting point for a Flutter application.
+Clone the project
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+  git clone https://github.com/lomash-relia/Taskify.git
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Generate your firebase options file manually or from firebase cli
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+  npm install -g firebase-tools
+
+  firebase login
+  
+  flutterfire configure
+  
+  (Completing these commands will generate the necessary files)
+```
+
+Configure firebase auth and firestore from Console
+
+Run pub get
+
+```bash
+  flutter pub get
+```
