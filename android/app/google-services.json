@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "948158690557",
+    "project_id": "hotel-taskify",
+    "storage_bucket": "hotel-taskify.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948158690557:android:6badca551acdc3173fba94",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo9qOh3LqAZakfQToOs2jVK6_14Y0Ll68"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
